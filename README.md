@@ -28,15 +28,16 @@ Database and Backend. This is a serverless application so we are using NoSQL dat
 
 You need **a config.json** file with your credentials that can be find in your firebase console. In this repository you can find a **config_Example.json** to use as a reference to know what you need before running the project.
 
-### Why NoSQL
-We are creating and MVP, so we need to react faster to the market. This kind of databases allows to create non-relational Docuents (no tables anymore :-)).
+### Firestore Why NoSQL
+
+The noSQL Database of Firebase. This kind of databases allows to create non-relational Docuents (no tables anymore :-)).
 
 For example, I can create a Collection called CARS where I will store some cars. Then I can have as many documents inside that collection, one for each car. However, every document may have different data types.
 
 The other aspect to use NoSQL database is that it is easy to maintain. You do not need to migrate things. Just create new Collections and that's all.
 
-### Severless with CloudFunctions
-We create functions that will react to events like http request, changes in the data base, user is logged in, etc. Every time the function is run, we get charged for it.
+### CloudFunctions
+Our code is running in the Server. As soon as our functions are invoked with an **http request** that function will run in the server and provide us with the required data.
 
 The pros, is that we do not have to take care of the server maintenance. We just need to write our NodeJS code for the functions and Firesbase will take all the maintanance part.
 
