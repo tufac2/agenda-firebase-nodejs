@@ -66,4 +66,4 @@ node_modules/
 
 src/utils/config.js
 
-
+src/config.json
