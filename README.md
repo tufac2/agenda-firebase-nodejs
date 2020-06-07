@@ -1,19 +1,22 @@
 # Description
 
 Backend service of landing page for HR-e-voluition. The topics covered by this project are:
-1. Welcome Email for Interested people in landing page
-2. Save emails in database - For the moment **no comercial use**
+1. Register New Users with Firebase SDK and replicating them in DB
+2. CRUD for and agenda's events
 
-# Technologies
+# Getting Started
+
+```npm install```
+
+```npm run dev``` This will run the server locally with hot reabuild as you modify
+
+```firebase deploy``` Whill deploy the Cloud Functions to Firebase
 
 ## Sendgrid
 Marketing email platform. We are using a free account wiht the user tufac2@gmail.com. We can only send up to 100 emails per day. To upgrade in future.
 
 **Sendgrid** has its own API for sending SMPT emails. There are severals APIs for sending email. In order to be faster we are using V3 as guidance but we will send the **emails via http** for the moment.
 
-#### Install Sendgrid Dependencies
-
-```npm install -save @sendgrid/npm```
 
 ### Configure Environment Variables for Firebase
 We beed to save the API keys in a secure way in order to avoid to share this with other people. In order to do so we are setting new environment variables in Firebase. **Ask for API key** as this is not shared any part along the project.

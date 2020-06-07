@@ -65,3 +65,5 @@ node_modules/
 .env
 
 src/utils/config.js
+
+src/config.json
