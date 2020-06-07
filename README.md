@@ -41,6 +41,8 @@ We create functions that will react to events like http request, changes in the 
 The pros, is that we do not have to take care of the server maintenance. We just need to write our NodeJS code for the functions and Firesbase will take all the maintanance part.
 
 #### HTTP CODE LIST FOR RESPONSES
+**under review because right now the codes are not align in the response**
+
 #Success
 200. General Code. Everything goes well
 201. No problem. Data not found
@@ -54,16 +56,3 @@ The pros, is that we do not have to take care of the server maintenance. We just
 403. Wrong credentials. The password is not the good one.
 404. Resource not found. User does not exist in database
 
-#### External Resources
-In this section you will find recommended resources to read or watch in order to start working with firebase, cloud functions and sengrid
-
-Youtube tutorial about Sendgrid and Firebase
-https://www.youtube.com/watch?v=vThujL5-fZQ&t=102s
-
-How to debug firebase cloud functions locally
-https://medium.com/@david_mccoy/build-and-debug-firebase-functions-in-vscode-73efb76166cf
-
-Video:
-https://www.youtube.com/watch?v=m_u6P5k0vP0
-Minute 42 --> Register user
-Minute 1h03min --> Validation Data in Backend
