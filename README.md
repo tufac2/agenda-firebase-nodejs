@@ -26,6 +26,8 @@ We beed to save the API keys in a secure way in order to avoid to share this wit
 ## Firebase
 Database and Backend. This is a serverless application so we are using NoSQL database for storage our data and CloudFunctions to run our backend.
 
+You need **a config.json** file with your credentials that can be find in your firebase console. In this repository you can find a **config_Example.json** to use as a reference to know what you need before running the project.
+
 ### Why NoSQL
 We are creating and MVP, so we need to react faster to the market. This kind of databases allows to create non-relational Docuents (no tables anymore :-)).
 
