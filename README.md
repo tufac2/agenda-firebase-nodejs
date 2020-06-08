@@ -49,6 +49,9 @@ The pros, is that we do not have to take care of the server maintenance. We just
 201. No problem. Data not found
 202. No problem. Data already in use. Not possible to insert in data base
 
+#PUT
+Need to add a PUT method
+
 #GENERAL
 200. Request OK
 200. Request OK but no content found

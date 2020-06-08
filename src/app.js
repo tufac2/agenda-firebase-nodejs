@@ -25,6 +25,7 @@ app.get(`/users`, FBAuth, getAuthenticatedUser)
 // Event Routes
 app.get(`/readEvent`, readEvent)
 app.post(`/createEvent`, createEvent)
+// TODO UPDATE instead of POST
 app.post(`/updateEvent`, updateEvent)
 app.delete(`/deleteEvent`, deleteEvent)
 
