@@ -44,16 +44,21 @@ The pros, is that we do not have to take care of the server maintenance. We just
 #### HTTP CODE LIST FOR RESPONSES
 **under review because right now the codes are not align in the response**
 
-#Success
-200. General Code. Everything goes well
+#POST
+409. Resource already exists
 201. No problem. Data not found
 202. No problem. Data already in use. Not possible to insert in data base
-#General
+
+#GENERAL
+200. Request OK
+200. Request OK but no content found
 403. Unauthorized. The user has not token
-#Signup
-500. Error creating user. It returns a error object with more details
-#Login
-400. Wrong/empty email or empty email. Preventing login manipulated data.
-403. Wrong credentials. The password is not the good one.
+404. Not found
+
+#SIGNUP
+409. The user is already taken
+
+#LOGIN
+405. Wrong/empty email or empty email. Preventing login manipulated data.
 404. Resource not found. User does not exist in database
 
